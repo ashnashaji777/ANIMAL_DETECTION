@@ -1,0 +1,60 @@
+/* Add your CSS styles here */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('homepage.jpg'); /* Replace 'path/to/your/image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fa183e;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  #alertBox {
+    background-color: #ffcccc; /* Light red background */
+    color: #ff0000; /* Red text */
+    border: 1px solid #ff0000; /* Red border */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+  
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Detection</title>
+  <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+</head>
+<body>
+    <h1>WILD ANIMAL DETECTION AND ALERT SYSTEM</h1>
+    <input type="file" id="fileInput" accept=".jpg, .jpeg, .png, .mp4">
+    <button onclick="detect()">Detect</button>
+    <div id="result"></div>
+    <div id="alertBox" style="display: none;">
+        <div id="alertMessage"></div>
+    </div>
+    <audio id="alertSound" src="{{ url_for('static', filename='alertsound.mp3') }}" preload="auto"></audio>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  
+
+    
+</body>
+</html>
